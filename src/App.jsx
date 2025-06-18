@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import fotoAngela from './assets/angela.jpg'
 
 function App() {
   const [mostrar, setMostrar] = useState(false)
@@ -19,7 +20,7 @@ function App() {
       {mostrar && (
         <div className="mt-8 animate-fade-in">
           <img
-            src="/angela.jpg" // asegúrate de que esté en la carpeta `public`
+            src={fotoAngela} // asegúrate de que esté en la carpeta `public`
             alt="Ángela"
             className="w-64 h-64 object-cover rounded-full shadow-2xl border-4 border-white mx-auto mb-4"
           />
