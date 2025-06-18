@@ -26,7 +26,7 @@ function App() {
           />
           <div  className="text-xl text-pink-900 font-semibold bg-white bg-opacity-70 px-4 py-2 rounded-lg shadow">
             <p >
-            "Eres la razón por la que sonrío cada día 💕"
+            "Eres la razón por la que empece a sonreir de nuevo 💕"
           </p>
           <p >
             "🌟Espero poder tener la dicha de conocerte en persona. Bonita 🌟"
